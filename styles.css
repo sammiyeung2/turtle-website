@@ -1,0 +1,225 @@
+
+/* ELEMENTS */
+body, html{
+    min-height: 120%;
+    min-width: 100%;
+}
+body{
+    background: linear-gradient(180deg, #D4E09B 0%, #F3F4E7 100%);
+    position: relative;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #014421;
+}
+
+h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 125%;
+    color: #014421;
+}
+
+h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: #014421;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* CLASSES */
+
+.menu {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: white;
+    line-height: 39px;
+    position: relative;
+    left: 55.83%;
+    right: 3.4%;
+    top: 34.91%;
+    bottom: 28.3%;
+}
+
+.topnav{
+    background-color: #014421;
+    position: relative;
+    width: 100%;
+    height: 106px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 30px 45px 30px 25px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    top: 34.91%;
+    bottom: 28.3%;
+  }
+
+  .topnav a:hover {
+      color: #D4E09B;
+  }
+
+  .turtle-logo{
+    position: absolute;
+    left: 2.64%;
+    right: 82.16%;
+    top: 29.25%;
+    bottom: 28.32%;   
+  }
+
+.intro-blurb{
+    position: absolute;
+    width: 35%;
+    height: 100px;
+    left: 850px;
+    top: 300px;
+}
+
+.intro-desc{
+    position: absolute;
+    width: 525px;
+    height: 121px;
+    left: 850px;
+    top: 430px;
+}
+
+.download-button{
+    position: absolute;
+    width: 525px;
+    height: 76px;
+    left: 850px;
+    top: 580px;
+    background: linear-gradient(180deg, #D4E09B 0%, #014421 100%);
+    border-radius: 45px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+    text-decoration-line:none;
+    color: #FFFFFF;
+}
+
+.download-button:hover{
+    background:#014421;
+}
+
+.dropshadow{
+    filter: drop-shadow(3px 9px 10px rgba(0, 0, 0, 0.25));
+}
+
+.founders_line1{
+    padding-top: 200px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.founders_line1 a img{
+    padding: 40px 70px;
+}
+
+.founders_line1 a{
+    /* get rid of hyperlink showing */
+    text-decoration-line:none;
+}
+
+.container{
+    position: relative;
+    max-width: 733px;
+    max-height: 549.28px;
+    left: 58px;
+    top: 150px;
+    overflow: hidden;
+}
+
+.team{
+    position: absolute;
+    width: 253px;
+    height: 63px;
+    left: 44%;
+    top: 160px;    
+}
+
+.founding{
+    position: relative;
+    width: 144px;
+    height: 45px;
+    left: 47.25%;
+    top: 200px; 
+    font-size: 30px;
+}
+
+
+/* IDS */
+
+#amy{
+    position: absolute;
+    width: 196px;
+    height: 196px;
+    left: 170px;
+    top: 35%;    
+}
+
+#caitlin{
+    position: absolute;
+    width: 196px;
+    height: 196px;
+    left: 471px;
+    top: 35%;
+}
+
+#jack{
+    position: absolute;
+    width: 196px;
+    height: 196px;
+    left: 772px;
+    top: 35%;
+}
+
+#agnes{
+    position: absolute;
+    width: 196px;
+    height: 196px;
+    left: 1073px;
+    top: 35%;
+}
+
+
